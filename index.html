@@ -136,7 +136,7 @@
                 imageUrls.forEach((url, index) => {
                     const img = document.createElement("img");
                     img.src = url;
-                    img.alt = `Circle ${index + 1}`;
+                    img.alt = `Circle ${index}`;
                     container.appendChild(img);
                 });
             } else if (type === 'runes') {
@@ -148,7 +148,7 @@
                     img.style.contentVisibility = 'hidden';
                     img.style.backgroundRepeat = 'repeat-x';
                     img.style.backgroundSize = 'auto 50px';
-                    img.alt = `Rune ${index + 1}`;
+                    img.alt = `Rune ${index}`;
                     container.appendChild(img);
                 });
             }
